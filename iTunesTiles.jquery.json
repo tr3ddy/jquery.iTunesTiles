@@ -1,0 +1,19 @@
+{
+	"name": "iTunesTiles",
+	"version": "0.1.0",
+	"title": "iTunes Tiles",
+	"author": {
+		"name": "Fabian Wiedemann",
+		"email": "fabian.wiedemann@gmail.com",
+		"url": "https://github.com/tr3ddy"
+	},
+	"licenses": [
+		{
+			"type": "Creative Commons Attribution-NonCommercial 3.0 Unported License",
+			"url": "http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.9.1"
+	}
+}
