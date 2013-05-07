@@ -1,0 +1,22 @@
+﻿.main{
+	background-color:#eee;
+	width:100%;
+	height:100%;
+	
+}
+.tile{
+	width:150px;
+	height:150px;
+	margin:5px;
+	background-color:darkred;
+	float:left;
+}
+
+.info{
+	height:0;
+	width:100%;
+	display:none;
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+    -webkit-opacity: 0;
+	}

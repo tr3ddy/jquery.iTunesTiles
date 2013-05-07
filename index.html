@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="jquery.iTunesTiles.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		var bla;
+        $(document).ready(function() {
+            $('.main').tiles({ 'infoHeight': '200px', 'beforeInfoHide': function () { $(this).css('background-color', 'black'); } });
+            //Orders tiles like window resize
+            $('.main').tiles('rearrange');
+            //Closes the current info box
+            $('.main').tiles('close');
+        });
+    </script>
+	<link rel="stylesheet" type="text/css" href="tiles.css" />
+</head>
+
+
+<body>
+	<div class="main">
+		<div style="background-color:Brown;"  id="a" class="tile"><div style="background-color:Brown;" class="info">aaaaaaaaa</div></div>
+		<div style="background-color:CadetBlue ;" id="b" class="tile"><div style="background-color:CadetBlue;" class="info">bbbbbbbbbbbbbb</div></div>
+		<div style="background-color:Crimson ;" id="c" class="tile"><div style="background-color:Crimson;" class="info">ccccccccccccccc</div></div>
+		<div style="background-color:Cyan ;" id="d" class="tile"><div style="background-color:Cyan;" class="info">ddddddddddd</div></div>
+		<div style="background-color:DarkBlue ;" id="e" class="tile"><div style="background-color:DarkBlue;" class="info">eeeeee</div></div>
+		<div style="background-color:DarkGreen ;" id="f" class="tile"><div style="background-color:DarkGreen;" class="info">ffffff</div></div>
+		<div style="background-color:Darkorange ;" id="g" class="tile"><div style="background-color:Darkorange;" class="info">gggggggggg</div></div>
+		<div style="background-color:DarkRed ;" id="h" class="tile"><div style="background-color:DarkRed;" class="info">hhhhhhhhhh</div></div>
+		<div style="background-color:DarkSalmon ;" id="i" class="tile"><div style="background-color:DarkSalmon;" class="info">iiiiiiiiiii</div></div>
+		<div style="background-color:DarkTurquoise ;" id="j" class="tile"><div style="background-color:DarkTurquoise;" class="info">jjjjjjjjjjjjjj</div></div>
+		<div style="background-color:DeepPink ;" id="k" class="tile"><div style="background-color:DeepPink;" class="info">kkkkkkkkkkkkk</div></div>
+		<div style="background-color:DodgerBlue ;" id="l" class="tile"><div style="background-color:DodgerBlue;" class="info">llllllllll</div></div>
+		<div style="background-color:ForestGreen ;" id="m" class="tile"><div style="background-color:ForestGreen;" class="info">mmmmmmmmmmm</div></div>
+		<div style="background-color:Gold ;" id="n" class="tile"><div style="background-color:Gold;" class="info">nnnnnnnnnnnnnnn</div></div>
+	</div>
+</body>
+
+</html>
